@@ -1,0 +1,17 @@
+{
+  "name": "universal-revival-dns",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Universal Revival DNS project and HTTPS service directory",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "dns2": "^3.1.1"
+  }
+}
